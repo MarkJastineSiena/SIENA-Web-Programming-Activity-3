@@ -1,0 +1,103 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: ' Inter ', sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  p{
+    padding-top: 5px;
+    font-size: 13px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  .h1--primary{
+    font-size: 30px;
+    color: #c30052;
+  }
+  .h2--secondary{
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    min-height: 90vh;
+    place-content: center;
+  }
+  
+  .card {
+    border-radius: 0.7rem;
+    box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+    min-width: 25rem;
+    padding: 10px;
+  }
+  
+  .card-horizontal {
+    border-radius: 0.7rem;
+    box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+    max-width: 32rem;
+    margin: 10px;
+    padding: 20px;
+  }
+  .box {
+    width: 100%;
+    min-height: 20rem;
+    border-radius: 0.7rem;
+    box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%)
+  }
+  .box--primary, .btn--primary, .card--primary, .card--quarternary{
+    background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%)
+  }
+  .box--secondary, .btn--secondary, .card--secondary{
+    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+  }
+  .box--ternary, .btn--ternary, .card--ternary{
+    background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  }
+  hr {
+    border: 1px solid rgba(51, 51, 51, 0.062);
+  }
+  
+  button {
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    color: white;
+    padding:10px 15px;
+    margin-left: 35%;
+    font-weight: bolder;
+  }
+  
+  .wrapper {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90vw;
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 90vw;
+    }
+  }
